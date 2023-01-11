@@ -66,10 +66,10 @@ code pre {
 }
 
 @media (max-width: 850px) {
-  /* #navbar {
+  #navbar {
     display: block;
     position: static;
-    width: 75%;
+    width: 80%;
     margin: 10px auto;
     height: 200px;
     z-index: 1;
@@ -80,14 +80,19 @@ code pre {
   #main-doc {
     margin: 20px 2em;
     padding: 0;
-  } */
+  }
 
-  #navbar {
+  code {
+    width: 100%;
+    font-size: small;
+  }
+
+  /* #navbar {
     width: 20%;
   }
 
   #main-doc {
     margin-left: 20%;
     padding: 5px;
-  }
+  } */
 }
